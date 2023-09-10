@@ -76,7 +76,7 @@
 
 ## `Задание 4`
 
-- Объявите в файле outputs.tf output типа map, содержащий { instance_name = external_ip } для каждой  
+- Объявите в файле outputs.tf output, содержащий { instance_name = external_ip } для каждой  
  из ВМ. Примените изменения.
 
 ### Ответ:
