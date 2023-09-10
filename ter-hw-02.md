@@ -129,3 +129,9 @@
 
 ---
 
+## `Ссылка на ветку terraform-02`
+
+[terraform-02](https://github.com/PugachEV72/ter-hw-01/tree/terraform-02)
+
+---
+
