@@ -14,71 +14,17 @@ variable "vm_db_family" {
 
 ###yandex_compute_instance vars
 
-/*
-variable "vm_web_name" {
-  type        = string
-  default     = "netology-develop-platform-web"
-  description = "vm name"
-}
-*/
-
 variable "vm_web_platform_id" {
   type        = string
   default     = "standard-v1"
   description = "platform id"
 }
 
-/*
-variable "vm_web_cores" {
-  type        = number
-  default     = 2
-  description = "cores"
-}
-
-variable "vm_web_memory" {
-  type        = number
-  default     = 1
-  description = "memory"
-}
-
-variable "vm_web_core_fraction" {
-  type        = number
-  default     = 5
-  description = "core fraction"
-}
-
-variable "vm_db_name" {
-  type        = string
-  default     = "netology-develop-platform-db"
-  description = "vm name"
-}
-*/
-
 variable "vm_db_platform_id" {
   type        = string
   default     = "standard-v1"
   description = "platform id"
 }
-
-/*
-variable "vm_db_cores" {
-  type        = number
-  default     = 2
-  description = "cores"
-}
-
-variable "vm_db_memory" {
-  type        = number
-  default     = 2
-  description = "memory"
-}
-
-variable "vm_db_core_fraction" {
-  type        = number
-  default     = 20
-  description = "core fraction"
-}
-*/
 
 ###resources vars
 
