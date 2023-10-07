@@ -28,5 +28,17 @@ variable "default_cidr" {
 variable "vpc_name" {
   type        = string
   default     = "develop"
-  description = "VPC network&subnet name"
+  description = "VPC net & subnet name"
 }
+
+variable "username" {
+  type = string
+  default     = "ubuntu"
+}
+
+variable "ssh_public_key" {
+  type        = string
+  default     = "~/.ssh/id_rsa.pub"
+  description = "location of ssh public key"
+}
+
